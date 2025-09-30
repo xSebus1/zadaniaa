@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: gray;
+}
+
+.rodzic2{
+    display: flex;
+    width: 25vw;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodzic{
+    display: flex;
+    background-color: rgb(128, 128, 128);
+    width: 25vw;
+    height: 250px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodzic3{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(128, 128, 128);
+    width: 25vw;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodzic > .b1{
+    height: 40%;
+    width: 35%;
+    background-color: rgb(238, 187, 187);
+}
+
+.rodzic3 > .b2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(238, 187, 187);
+}
+
+.rodzic3 > .b3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(238, 187, 187);
+    align-self: flex-end;
+}
+
+.rodzic4{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(128, 128, 128);
+    width: 75vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.rodzic4 > .b5{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(238, 187, 187);
+} 
