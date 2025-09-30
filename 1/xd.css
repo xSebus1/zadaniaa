@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+.bloczek{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.blok{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: space-between;
+}
+
+.srodek2{
+    background-color: red;
+    width: 330px;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.blok > .blok1{
+    background-color: rgb(30, 255, 0);
+    width: 330px;
+    height: 140px;
+}
